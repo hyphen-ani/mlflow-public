@@ -2,10 +2,10 @@ Here are the commands i used
 
 
 # For Creating Virtual Environment
-python3 -m venv .venv
+python3 -m venv .venv {}
 source .venv/bin/activate
 
-uv venv
+uv venv {}
 source .venv/bin/activate
 
 
