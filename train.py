@@ -20,7 +20,7 @@ def parse_args():
     p.add_argument("--csv", default="data/sample.csv")
     p.add_argument("--target", default="performance_score")
     p.add_argument("--experiment", default="student-performance-prediction-model")
-    p.add_argument("--run", default="SPM:8")
+    p.add_argument("--run", default="SPM:9")
 
     p.add_argument("--n-estimators", type=int, default=85)
     p.add_argument("--max-depth", type=int, default=80)
